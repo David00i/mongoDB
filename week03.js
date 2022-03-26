@@ -64,5 +64,4 @@ let result3 = await client.db('week03').collection('customers').deleteMany(
 console.timeEnd('delete used time')
 console.log('Deleted document', result3)
 console.log('completed DELETE\n')
-
 });
