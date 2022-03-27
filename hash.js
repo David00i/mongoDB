@@ -18,5 +18,4 @@ bcrypt.genSalt(saltRounds, function (saltError, salt) {
   }
 })
 const convert = bcrypt.hashSync(password, saltRounds) 
-console.log("The hash  password : ", convert);
 module.exports = {convert}
